@@ -96,5 +96,6 @@ The game is mostly passive - you will earn points automatically during ceremonie
 [Back to top](#table-of-contents)
 
 - [ ] Read [A Brief Introduction to Scrum](https://www.atlassian.com/agile/scrum) by Atlassian.
-- [ ] `Extra` Read [What Agile Means for the everyday developer](https://www.atlassian.com/agile/developer) by Atlassian.
+- [ ] Read [The Scrum Guide](http://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-us.pdf).
 - [ ] Continue working on Team Treehouse for the rest of the day, focusing on JavaScript and jQuery as tomorrow we will dive straight in with a coding assignment using this language and library.
+- [ ] `Extra` Read [What Agile Means for the everyday developer](https://www.atlassian.com/agile/developer) by Atlassian.
