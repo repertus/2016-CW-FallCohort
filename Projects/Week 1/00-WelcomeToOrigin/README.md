@@ -11,6 +11,8 @@ Today will not be heavy on learning new coding topics, instead we will be focusi
 
 Today will mostly be about ensuring that everybody is prepared for the next 12 weeks of learning. The goal is to remove as much friction as possible so that you can focus on the course instead of any obstacles that could have been avoided day one.
 
+### Table of Contents
+
 - [Parking](#parking)
 - [Building Access](#building-access)
 - [Hardware Setup](#hardware-setup)
@@ -18,18 +20,22 @@ Today will mostly be about ensuring that everybody is prepared for the next 12 w
 - [The Origin Game](#the-origin-game)
 - [Rest of the Day](#rest-of-the-day)
 
-### Parking
+### Parking [Back to top](#table-of-contents)
 We have partnered with Ace in Horton Plaza to provide parking for our students.
 
 - [ ] Walkthrough of plans offered by Ace from one of their representatives.
 - [ ] Coordinate with administration to organize parking.
 
-### Building Access
+<hr />
+
+### Building Access [Back to top](#table-of-contents)
 You have access to the building 24 hours a day, 7 days a week. As we are in the midst of summer - it's important to note that the AC is only on Monday-Friday between the hours of 9-5. We provide box fans if you want to come in on the weekend or stay late after class.
 
 - [ ] Receive your building access card and key from administration.
 
-### Hardware Setup
+<hr />
+
+### Hardware Setup [Back to top](#table-of-contents)
 You will be spending a lot of time working on the computer in the next 12 weeks, and it's important that you spend that time as productively as possible. Slow computers mean slow learning, so this is a great opportunity to gain back valuable hours in the day to spend learning instead of waiting for your computer to catch up with you.
 
 The best thing you can do to speed up your computer is to buy and install a Solid State Drive (or SSD) to replace the existing Hard Disk Drive (or HDD) in your computer. For a rundown of the difference between the two and why an SSD provides such a dramatic performance boost - check out the following article. https://www.backblaze.com/blog/hdd-versus-ssd-whats-the-diff/
@@ -38,8 +44,9 @@ The best thing you can do to speed up your computer is to buy and install a Soli
 
 - [ ] Ask your instructor to review your hardware.
 
+<hr />
 
-### Software Setup
+### Software Setup [Back to top](#table-of-contents)
 Make sure you have signed up for all the necessary accounts and installed the necessary software to complete the course. You may have already completed this step when you were given a link to our [Syllabus](https://github.com/origincodeacademy/syllabus) repository - double check again, as there have been a couple of additions that have been added recently.
 
 #### Signup for these Accounts
@@ -64,16 +71,19 @@ Make sure you have signed up for all the necessary accounts and installed the ne
 * [ ] Our GitHub organization (If you can read this - you're good to go!)
 * [ ] Our Slack team
 
-### The Origin Game
+<hr />
+
+### The Origin Game [Back to top](#table-of-contents)
 We are introducing a new component to the experience at Origin Code Academy called *The Origin Game* - an experience (XP) based game where you can earn points for completing assignments, number of hours spent coding, showing up to class on time, and even for points completed on Team Treehouse!
 
 The game is mostly passive - you will earn points automatically during ceremonies at the end of each day/week, and regularly throughout the course when you complete assignments and are checked in by an instructor. 
 
 - [ ] Follow all of the steps outlined in [The Origin Game](https://github.com/OriginCodeAcademy/Syllabus/tree/master/The%20Origin%20Game).
 
+<hr />
 
-### Rest of the Day
+### Rest of the Day [Back to top](#table-of-contents)
 
 - [ ] Read [A Brief Introduction to Scrum](https://www.atlassian.com/agile/scrum) by Atlassian.
-- [ ] (Extra) Read [What Agile Means for the everyday developer](https://www.atlassian.com/agile/developer) by Atlassian.
+- [ ] `Extra` Read [What Agile Means for the everyday developer](https://www.atlassian.com/agile/developer) by Atlassian.
 - [ ] Continue working on Team Treehouse for the rest of the day, focusing on JavaScript and jQuery as tomorrow we will dive straight in with a coding assignment using this language and library.
