@@ -61,6 +61,7 @@ Make sure you have signed up for all the necessary accounts and installed the ne
 * [ ] [GitHub](https://www.github.com) - You will use this to store your source code online and get feedback from your instructor. You'll almost certainly end up using this for the rest of your career in software development as well.
 * [ ] [LinkedIn](https://www.linkedin.com) - This is how almost all recruiters will find you when you start looking for jobs. Don't worry too much about filling in every field for now, our careers team will help you fine tune this later in the course.
 * [ ] [WakaTime](https://www.wakatime.com) - Think of WakaTime as a "fitbit for programmers". It will measure how long you spend coding each day. This is a great way for you to earn more XP in [The Origin Game](https://github.com/OriginCodeAcademy/Syllabus/tree/master/The%20Origin%20Game)!
+
 #### Install these applications
 
 *Required for Week 1-4*
