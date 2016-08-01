@@ -101,3 +101,7 @@ The game is mostly passive - you will earn points automatically during ceremonie
 - [ ] Review our [Coding Standards](https://github.com/OriginCodeAcademy/Syllabus/blob/master/Best%20Practices/Coding%20Standards/Frontend/Front-end%20Coding%20Standards.md) for Week 1
 - [ ] `Extra` Read [What Agile Means for the everyday developer](https://www.atlassian.com/agile/developer) by Atlassian.
 - [ ] Continue working on Team Treehouse for the rest of the day, focusing on JavaScript and jQuery as tomorrow we will dive straight in with a coding assignment using this language and library.
+
+### Finished?
+
+Please [click here](https://www.github.com/OriginCodeAcademy/2016-CW-FallCohort/issues/new?title=00-WelcomeToOrigin&body=Check%20the%20checkboxes%20by%20adding%20an%20X%20between%20the%20square%20brackets%20to%20verify%20you've%20made%20yourself%20a%20nice%20place%20to%20work.%0A%0A-%20%5B%20%5D%20Coordinated%20parking%20(if%20necessary)%0A-%20%5B%20%5D%20Received%20building%20access%20-%20(card%20and%20key)%0A-%20%5B%20%5D%20Verified%20your%20hardware%20with%20Cameron%0A-%20%5B%20%5D%20Installed%20all%20the%20required%20software%0A-%20%5B%20%5D%20Joined%20the%20Origin%20Game%0A-%20%5B%20%5D%20Completed%20the%20reading%20assignments%0A%0AWhat%20feedback%20do%20you%20have%20about%20day%20one%3F) to create an issue in this repository, to fill out a prepoulated Issue in this repository.
