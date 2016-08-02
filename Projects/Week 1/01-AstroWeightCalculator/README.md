@@ -4,7 +4,33 @@
 
 For this assignment, you've been hired by the NASA Jet Propulsion Laboratory to create a simple weight calculator that would be used by future astronauts to calculate their weight on the surface of the 9 planets (okay, 8 planets and a dwarf!) as well as the moon and the sun of our solar system.
 
+## First - setup a simple `node-static` web server
+`node-static` is a simple, RFC2616 compliant file streaming module for Node.js which can be used for making any of your directories a static file server. You can use this as a command-line tool to make a directory to a server or as a library for creating custom file server.
+
+`node-static` can be easily installed using npm (we'll make it global for using the command-line tool)
+
 ## Tasks
+
+1. From the Terminal in Mac or the command prompt in Windows enter:  
+
+`npm install -g node-static`
+
+2. To start the server, navigate to the directory from where you want to serve your files and hit the following command:
+
+`static . ` 
+
+3. You should see the following output:
+
+`serving "." at http://127.0.0.1:8080`
+
+4. This means the server started at port 8080 with the current directory as webroot. Read the node-static documentation to learn more about this library.
+
+
+Note:  If you are using a Mac and encounter error messages like 'EACCES', you will need to fix your permissions:
+
+https://docs.npmjs.com/getting-started/fixing-npm-permissions
+
+## Project Tasks
 
 1. Create a folder named `dev` to store all of your future projects.
     - For Mac - create a `dev` folder in your Home Directory.
