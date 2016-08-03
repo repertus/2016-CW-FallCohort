@@ -1,7 +1,7 @@
 # Mortgage Calculator
 
 The San Diego real estate market is an excellent place to invest your extra cash. Lets build a mortgage calculator using jQuery to calculate your monthly payment on a home mortgage. 
-For this you will need to build a form that accepts the `loan balance`, `interest rate`, `loan term` in years and `period` (either `monthly` or `bi-monthly`) and a calculate button.
+For this you will need to build a form that accepts the `loan balance`, `interest rate`, `loan term` in years and `period` (either monthly or bi-monthly - every 2 months) and a calculate button.
 
 ## Helpful Images
 
@@ -30,20 +30,32 @@ For this you will need to build a form that accepts the `loan balance`, `interes
    - The function should then calculate the monthly payment as follows (we can break this formula into 4 'buckets' for readability):
         
 ```js
-// number of payments
-numberOfPayments = loanTerm * period
+// Loan balance is $300,000
+var loanBalance = 300000;
 
-// monthly interest rate       
-monthlyInterestRate = (interestRate / 100) / period          
+// Loan term is 30 years
+var loanTerm = 30;
 
-// compounded interest rate
-compoundedIntestRate = Math.pow((1 + monthlyInterestRate), numberOfPayments)  
+// Period is 12 for monthly, 2 for bi-monthly
+var period = 12;
 
-// interest quotient
-interestQuotient  = (monthlyInterestRate * compoundedInterestRate) / (compoundedIntestRate - 1)
+// Annual Interest Rate is 4%
+var interestRate = 4;
 
-// final calculation
-monthlyPayment = loanBalance * interestQuotient;
+// number of payments (360)
+var numberOfPayments = loanTerm * period
+
+// monthly interest rate (~0.0033)      
+var monthlyInterestRate = (interestRate / 100) / period          
+
+// compounded interest rate (~3.31)
+var compoundedIntestRate = Math.pow((1 + monthlyInterestRate), numberOfPayments)  
+
+// interest quotient (~0.004)
+var interestQuotient  = (monthlyInterestRate * compoundedInterestRate) / (compoundedIntestRate - 1)
+
+// final calculation rounded to two decimal places ($1432.25)
+var monthlyPayment = Math.round((loanBalance * interestQuotient) * 100) / 100;
 ```
 
 
