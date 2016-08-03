@@ -10,10 +10,10 @@ For this you will need to build a form that accepts the `loan balance`, `interes
 
 ## Tasks
 
-1. Create a folder named `03-MortgageCalculator` in your `dev` folder.
+1. Create a folder named `02-MortgageCalculator` in your `dev` folder.
 2. Setup your Git workflow.
-  2a. Initialize an empty git repository in `03-MortgageCalculator` by running `git init` in the command prompt.
-  2b. Create a repository on GitHub called `03-MortgageCalculator` and follow the instructions to add a remote origin.
+  2a. Initialize an empty git repository in `02-MortgageCalculator` by running `git init` in the command prompt.
+  2b. Create a repository on GitHub called `02-MortgageCalculator` and follow the instructions to add a remote origin.
 3. Open this folder in your favorite text editor (Ours is Sublime!)
 4. Create an `index.html` file and a corresponding `index.js` file.
 5. Create a basic HTML page, and make sure it has the following HTML elements.
@@ -45,16 +45,16 @@ var period = 12;
 var interestRate = 4;
 
 // number of payments (360)
-var numberOfPayments = loanTerm * period
+var numberOfPayments = loanTerm * period;
 
 // monthly interest rate (~0.0033)      
-var monthlyInterestRate = (interestRate / 100) / period          
+var monthlyInterestRate = (interestRate / 100) / period;
 
 // compounded interest rate (~3.31)
-var compoundedIntestRate = Math.pow((1 + monthlyInterestRate), numberOfPayments)  
+var compoundedIntestRate = Math.pow((1 + monthlyInterestRate), numberOfPayments);
 
 // interest quotient (~0.004)
-var interestQuotient  = (monthlyInterestRate * compoundedInterestRate) / (compoundedIntestRate - 1)
+var interestQuotient  = (monthlyInterestRate * compoundedInterestRate) / (compoundedIntestRate - 1);
 
 // final calculation rounded to two decimal places ($1432.25)
 var monthlyPayment = Math.round((loanBalance * interestQuotient) * 100) / 100;
@@ -63,7 +63,7 @@ var monthlyPayment = Math.round((loanBalance * interestQuotient) * 100) / 100;
 
 ## Turn In Instructions
 * Push your changes to GitHub using `git push origin master`
-* [Click here to create an issue in the class repository](https://www.github.com/OriginCodeAcademy/2016-SC-SummerCohort/issues/new?title=03-MortgageCalculator&body=1.%20Where%20can%20I%20find%20your%20repository%3F%20(Paste%20the%20url%20of%20your%20repository%20below)%0A%0A2.%20What%20was%20your%20biggest%20struggle%20in%20this%20assignment%3F%0A%0A2.%20What%20was%20your%20biggest%20accomplishment%20in%20this%20assignment%3F)
+* [Click here to create an issue in the class repository](https://www.github.com/OriginCodeAcademy/2016-SC-SummerCohort/issues/new?title=02-MortgageCalculator&body=1.%20Where%20can%20I%20find%20your%20repository%3F%20(Paste%20the%20url%20of%20your%20repository%20below)%0A%0A2.%20What%20was%20your%20biggest%20struggle%20in%20this%20assignment%3F%0A%0A2.%20What%20was%20your%20biggest%20accomplishment%20in%20this%20assignment%3F)
     * Include a link to your repository in the description
     * Answer the questions filled out for you in the description
     * You will receive 10XP for handing in this assignment. You do not earn extra points for handing it in sooner, or for the quality of your code.
