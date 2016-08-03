@@ -1,7 +1,7 @@
 # Mortgage Calculator
 
 The San Diego real estate market is an excellent place to invest your extra cash. Lets build a mortgage calculator using jQuery to calculate your monthly payment on a home mortgage. 
-For this you will need to build a form that accepts the `loan balance`, `interest rate`, `loan term` in years and `period` (either monthly or bi-monthly - every 2 months) and a calculate button.
+For this you will need to build a form that accepts the `loan balance`, `interest rate`, `loan term` in years and `period` (either monthly or bi-monthly - every 2 months) and a calculate button that outputs a monthly payment amount to the end user.
 
 ## Helpful Images
 
