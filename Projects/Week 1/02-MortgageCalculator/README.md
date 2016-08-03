@@ -38,7 +38,7 @@ var loanBalance = 300000;
 // Loan term is 30 years
 var loanTerm = 30;
 
-// Period is 12 for monthly, 2 for bi-monthly
+// Period is 12 for monthly, 6 for bi-monthly
 var period = 12;
 
 // Annual Interest Rate is 4%
