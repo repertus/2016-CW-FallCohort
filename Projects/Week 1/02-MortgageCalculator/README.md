@@ -29,6 +29,8 @@ For this you will need to build a form that accepts the `loan balance`, `interes
    - This function should grab the values entered by the user from the `input` elements and the `select` element.
    - The function should then calculate the monthly payment as follows (we can break this formula into 4 'buckets' for readability):
         
+If you are not familiar with some of the terms in the following code sample - you can Google the terms to see what they mean.
+
 ```js
 // Loan balance is $300,000
 var loanBalance = 300000;
