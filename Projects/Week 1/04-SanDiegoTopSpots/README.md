@@ -32,3 +32,4 @@ There are some great places to see in downtown San Diego. In this project you'll
 * [Click here to create an issue in the class repository](https://www.github.com/OriginCodeAcademy/2016-CW-FallCohort/issues/new?title=04-SanDiegoTopSpots&body=1.%20Where%20can%20I%20find%20your%20repository%3F%20(Paste%20the%20url%20of%20your%20repository%20below)%0A%0A2.%20What%20did%20you%20enjoy%20most%20about%20this%20project%3F%0A%0A3.%20What%20was%20the%20toughest%20part%3F%0A%0A4.%20Did%20you%20learn%20about%20any%20cool%20places%20to%20see%20in%20San%20Diego%3F)
     * Include a link to your repository in the description
     * Answer the questions filled out for you in the description
+    * You will receive 10XP for handing in this assignment. You do not earn extra points for handing it in sooner, or for the quality of your code.
