@@ -14,10 +14,10 @@ You will have until the end of the week to work on this project.
   - Initialize an empty git repository in `06-VSTDA` by running `git init` in the command prompt.
   - Create a repository on GitHub called `06-VSTDA` and follow the instructions to add a remote origin.
 3. Open this folder in your favorite text editor (Ours is Sublime!)
-4. Create an `index.html` file with the gulp-inject comments needed to inject the script and link tags for your application dependencies and custom html, js and css. Add gulpfile.js, package.json and bower.json and the needed directory structure to support auto-reload and script injection during local development. Add a .gitignore file to the root directory to exclude the `bower_components and node_modules` folders from version control.
-5. Design your HTML page to look like the screenshot using the Bootstrap design framework.
+4. Create an `index.html` file.
+5. Design your HTML page to look like the screenshot using Bootstrap or another preferred design framework.
 6. Make use of the following AngularJS features to build this application.
-	- Two way data binding using the `ng-model` directive and one way data binding using the `{{}}` bindings (Sidenote, I call these ~moustache~ Jason bindings!).
+	- Two way data binding using the `ng-model` directive and one way data binding using the `{{}}` bindings (commonly called moustache brackets!).
 	- Click event binding using the `ng-click` directive.
 	- Dynamic CSS using the `ng-class` directive.
 	- Iteration using the `ng-repeat` directive.
