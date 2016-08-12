@@ -1,6 +1,6 @@
 # Budget Tracker
 
-### Due by Tuesday 27th October
+### Due by Monday Morning
 
 For this assignment, you are to build a web application using AngularJS that lets users track their income/expenses.
 
