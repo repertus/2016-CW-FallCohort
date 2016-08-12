@@ -26,7 +26,6 @@ For this assignment, you are to build a web application using AngularJS that let
 	- Iteration using the `ng-repeat` directive.
 
 **3. Add some extras**
-* Make some improvements to the UI
 * Personal finance gurus recommend reducing your *largest expenses* before you stop buying coffee at Starbucks. Modify your application to create a list of no more than 5 suggestions of expenses the user can reduce.
 * Typically, your rent should not exceed 25% of your monthly take home pay. If the user has any expenses that mention the words "House", "Rent" or "Mortgage" - add a suggestion that the users rent exceeds 25% of their take home pay.
 
