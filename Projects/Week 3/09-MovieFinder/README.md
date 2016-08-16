@@ -12,16 +12,32 @@ You should make use of Angular JS, Bootstrap and the OMDB API (http://omdbapi.co
   - Initialize an empty git repository in `09-MovieFinder` by running `git init` in the command prompt.
   - Create a repository on GitHub called `09-MovieFinder` and follow the instructions to add a remote origin.
 3. Open this folder in your favorite text editor (Ours is Sublime!)
-4. Create an `index.html` file and an `app.js`, `movie.service.js`, `movie.controller.js` and `movie.detail.controller.js` file.
+4. Create a file structure similar to the following (Folder by feature)
+```
+/
+|__ bower_components
+|__ app
+   |__ core
+      |__ movie.factory.js
+   |__ search
+      |__ search.controller.js
+      |__ search.html
+   |__ detail
+      |__ detail.controller.js
+      |__ detail.html
+   |__ app.module.js
+|__ index.html
+
+```
 5. Make use of the following AngularJS features to build this application.
   - Configure routing using the `angular-ui-router` package to create two seperate states. One for the Search view, and one for the Detail view.
   - Create a `factory` and inject a `$http` service to call the OMDB API.
   - Create a `controller` and factory you created above **DO NOT USE `$scope`**. Figure out the code you'll need to write to facilitate the given requirements.
   
 ## Requirements
-* Must be able to search for movies
-* Must show results of the search for the movies
-* Must be able to view more information for a particular movie
+* Must be able to search for movies.
+* Must show results of the search for the movies.
+* Must be able to view more information for a particular movie. (The design of this page is up to you!)
 
 ## Helpful Links
 * https://scotch.io/tutorials/angular-routing-using-ui-router
