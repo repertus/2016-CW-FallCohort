@@ -26,7 +26,7 @@ You should make use of Angular JS, Bootstrap and the OMDB API (http://omdbapi.co
       |__ detail.controller.js
       |__ detail.html
    |__ app.module.js
-|__ index.html
+   |__ index.html
 
 ```
 5. Make use of the following AngularJS features to build this application.
