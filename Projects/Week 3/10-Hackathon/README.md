@@ -1,5 +1,7 @@
 # Origin Hackathon v1.0
 
+## Due Monday @ 11AM
+
 Welcome to the 5th Origin Hackathon!
 
 For the rest of the day, you will be coming up with your own assignment using one or more APIs of your choice!
@@ -23,6 +25,12 @@ Let's see what you can come up with!
 **2. Create your application using AngularJS**
 
 **3. Write the application**
+
+## Judgement Criteria
+Your hackathon project will be judged by the other cohort based on the following criteria:
+
+- How many APIs were used?
+- Functionality
 
 ## Turn in instructions
 
