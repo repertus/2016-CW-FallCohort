@@ -8,7 +8,7 @@ The goal of the assignment is to get you familiar with C# and working with Visua
 
 ## Tasks
 1. Fork the [CSharpExercises](https://www.github.com/origincodeacademy/CSharpExercises) repository so that you have a copy on your GitHub profile.
-2. Clone this repository to your machine using `git clone https://www.github.com/<your_username>/CSharpExercises.git`
+2. Clone this repository to your machine by typing `git clone https://www.github.com/<your_username>/CSharpExercises.git` in Command Prompt on your Windows machine.
 3. Open `CSharpExercises.sln` using Visual Studio
 4. Complete the exercises found in `Exercises.cs` to make the tests in `Program.cs` pass.
 5. If you finish with these exercises, sign up for [CodeWars](http://www.codewars.com) and take on a few challenges!
