@@ -49,3 +49,9 @@ Create SQL statements to complete the following:
 18. Write a query to add yourself to the Customers table with an order for 'Grandma's Boysenberry Spread'.
 19. Write a query to remove yourself and your order from the database.
 20. Write a query to return a list of products from the Products table along with the total units in stock for each product. Include only products with TotalUnits greater than 100.
+
+## Turn In Instructions
+* Push your changes to GitHub using `git push origin master`
+* [Click here to create an issue in the class repository](https://www.github.com/OriginCodeAcademy/2016-CW-FallCohort/issues/new?title=15-FunWithSqlQueries&body=1.%20Where%20can%20I%20find%20your%20repository%3F%20(Paste%20the%20url%20of%20your%20repository%20below)%0A%0A2.%20What%20did%20you%20enjoy%20most%20about%20this%20project%3F%0A%0A3.%20What%20was%20the%20toughest%20part%3F%0A%0A)
+    * Include a link to your repository in the description
+    * Answer the questions filled out for you in the description
