@@ -16,7 +16,7 @@ The solution contains a test project with already populated tests that you can u
 * For guidance on how to complete this project, watch today's video - or here are some good resources for picking up the basics of LINQ.
 
 - http://www.tutorialspoint.com/linq/linq_overview.htm
-- http://csharp-station.com/Tutorial/Linq/Lesson01
+- https://www.pcanete.com.ar/archivos/machetes-mapas/linq.pdf
 
 ## Extras
 * Write your own controller methods (or, API Endpoints) that return data you think might be useful from the NorthWind database.
