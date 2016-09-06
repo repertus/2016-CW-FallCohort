@@ -52,19 +52,19 @@ ProjectId  --|
 
 ## Screenshots
 **Dashboard**<br />
-<img src="http://imgur.com/a/mPatn.png" alt="">
+<img src="http://i.imgur.com/D2KBILR.png" alt="">
 
 **Student Grid Screen**<br />
-<img src="http://imgur.com/a/ALMki.png" alt="">
+<img src="http://i.imgur.com/xLuALI8.png" alt="">
 
 **Student Detail Screen**<br />
-<img src="http://imgur.com/a/oEjtx.png" alt="">
+<img src="http://i.imgur.com/v2dvBNX.png" alt="">
 
 **Project Grid Screen**<br />
-<img src="http://imgur.com/a/dxATB.png" alt="">
+<img src="http://i.imgur.com/hbtg69K.png" alt="">
 
 **Project Detail Screen**<br />
-<img src="http://imgur.com/a/6A0Dp.png" alt="">
+<img src="http://i.imgur.com/ov4OyNm.png" alt="">
 
 ## Extras
 (In this order)
