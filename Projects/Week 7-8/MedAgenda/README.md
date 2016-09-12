@@ -14,12 +14,16 @@ The **Development Team** for this project will be you guys!
 ### Introduction
 A local entrepreneur has a great idea for a system to simplify doctor/patient scheduling in Emergency Rooms. Your team has been contracted to design the initial version of this system.
 
-The product owner envisions a system primarily used by a staff member responsible for scheduling, who we will refer to as "The Scheduler".
+The product owner envisions 3 web applications talking to a single database.
 
-Doctors and Patients alike will check in and out with The Scheduler, which will help the system automatically create/manage an overall schedule for patients to see their doctors, and for doctors to view their appointments for the day.
+1. An app for hospital admins to manage patients/doctors
+2. An app for doctors to check in for a shift
+3. An app for patients to check in when they arrive at the ER.
+
+Doctors and Patients alike will check in and out with their respective web apps. The entire logic process will be discussed more in the planning meeting.
 
 ### Mockups
-Initial mockups have been created by the Product Owner for the benefit of the development team, [you can view them here](https://onedrive.live.com/redir?resid=6CB256973F4115B3!22713&authkey=!ADAZ9LlpofXShsU&ithint=file%2cpdf)
+Initial mockups of the admin application have been created by the Product Owner for the benefit of the development team, [you can view them here](https://onedrive.live.com/redir?resid=6CB256973F4115B3!22713&authkey=!ADAZ9LlpofXShsU&ithint=file%2cpdf)
 
 ### Tasks
 **Release Planning Meeting**

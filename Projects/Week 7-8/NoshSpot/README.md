@@ -2,7 +2,7 @@
 
 <img src="http://www.gridgit.com/postpic/2009/08/agile-software-development-life-cycle_279700.jpg" />
 
-In this project you will be working as a team to build a food delivery service using the SWAC stack (SQL Server, Web API, AngularJS, C#).
+In this project you will be working as a team to build a food ordering service using the SWAC stack (SQL Server, Web API, AngularJS, C#).
 
 The project will be managed in an Agile fashion, faciliting Scrum to communicate progress with eachother and the Product Owner.
 
@@ -12,14 +12,13 @@ The **Product Owner/Scrum Master** for this project will be Cameron. (Note that 
 The **Development Team** for this project will be you guys!
 
 ### Introduction
-A local entrepreneur has a great idea for a system to provide food delivery for restaurants that don't normally offer the service in Downtown San Diego. Your team has been contracted to design the initial version of this system.
+A local entrepreneur has a great idea for a system to provide restaurants in Downtown San Diego that don't currently accept online orders the ability to do so. Your team has been contracted to design the initial version of this system.
 
 The product owner envisions a system comprised of three applications, **in the following priority**.
 
-- A "superuser" app that allows him to enter new restaurants into the system
+- A "superuser" app that allows the product owner to enter new restaurants into the system
 - A customer website to allow customers to place orders
-- (Extra) A restaurant website to allow restaurants to view orders made to their restaurant
-- (Extra) A driver app for drivers to accept orders for delivery.
+- A restaurant website to allow restaurants to view orders made to their restaurant
 
 ### Mockups
 Initial mockups have been created by the Product Owner for the benefit of the development team, [you can view them here](https://1drv.ms/b/s!ArMVQT-XVrJsgbs-Dc9eE0moD18Wug)
