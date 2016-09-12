@@ -22,44 +22,49 @@ Doctors and Patients alike will check in and out with The Scheduler, which will 
 Initial mockups have been created by the Product Owner for the benefit of the development team, [you can view them here](https://onedrive.live.com/redir?resid=6CB256973F4115B3!22713&authkey=!ADAZ9LlpofXShsU&ithint=file%2cpdf)
 
 ### Tasks
-1. **Release Planning Meeting**
+**Release Planning Meeting**
 
 Meet with the Scrum Master and the rest of the development team to plan what features will be delivered in the first release, then break down the release features into manageable sprints.
 
-2. **Project Setup**
+**Project Setup**
 
 Create a Repository on GitHub, and ensure that everybody on the team has access to the repository by adding them as a collaborator. **Take the time here to read [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/). Seriously, spend a whole day here if you have to. It'll help.**
 
-3. **Build the Database as a mob**
+**Build the Database as a mob**
 
 Before you begin coding - take some time to discuss your data model by drawing Entity Relation Diagrams on [Draw.io](https://www.draw.io). Save these to the Trello board created during the Release planning meeting.
 
 After you have your data model drawn up, build the database for using Entity Framework as a mob. When the database is generating to the team's satisfaction, the driver should push the changes to GitHub. 
 
-4. **Build the Web API in pairs**
+**Build the Web API in pairs**
 
 You should now break away from mob programming to delegate controller creation to pairs in your team. This is a good chance for you to practice creating branches and creating pull requests into the master branch. **Before you merge changes back into the master branch...**
 
-5. **Perform a Mob Code Review**
+**Perform a Mob Code Review**
 
 As a team, perform a code review for each pull request that has been made, checking for style inconsistencies and functionality issues. Once this has been done, you can merge all branches into the master branch.
 
-6. **Mob Develop the initial layout/states of the user interface**
+**Mob Develop the initial layout/states of the user interface**
 
 As a mob, pull the master branch to a machine (now complete with everyones changes). Then shell out the layout of the application - making group decisions about design at this point, such as preferred CSS framework and use of components within that framework.
 
 When the application has been shelled out sufficiently (State Definitions / Controllers / Templates / Navigation), the driver should push the changes to GitHub.
 
-7. **Pair program the necessary screens**
+**Pair program the necessary screens**
 
 After this point, work will be done in pairs. Before working, decide as a team who will work on each screen to be built. Each pair should make a feature branch, then once the screen is finished, issue a pull request into the development branch. Repeat this process for each screen you have been tasked with building.
 
-8. **Integrate all the individual branches as a mob**
+**Integrate all the individual branches as a mob**
 
 (Your instructor will sit down with you and help with this). Now, it's time for all of your efforts will be combined into the first release of MedAgenda!
 
-9. **Bug Fixes/Improvements as necessary**
+**Bug Fixes/Improvements as necessary**
 	
-10. **Demo your application in front of Cohort 6.0**
+**Demo your application in front of Cohort 6.0**
 
-Create a short presentation (no more than 10 minutes) to demo your project. Your presentation should 
+Create a short presentation (no more than 10 minutes) to demo your project. Your presentation should be composed of the following
+
+- Briefly describe the project
+- Outline the technologies used for the project
+- Demo the project
+- Q+A
