@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Classroom App</title>
+
+		<!-- bower:css -->
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
+		<!-- endbower -->
+
+		<!-- inject:css -->
+		<!-- endinject -->
+	</head>
+	<body>
+		<div class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Classroom Manager</a>
+				<ul class="nav navbar-nav">
+					<li ui-sref-active="active">
+						<a ui-sref="dashboard">Dashboard</a>
+					</li>
+					<li ui-sref-active="active">
+						<a ui-sref="student.grid">Students</a>
+					</li>
+					<li ui-sref-active="active">
+						<a ui-sref="project.grid">Projects</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<div ui-view></div>
+		</div>
+
+		<!-- bower:js -->
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+		<!-- endbower -->
+
+		<!-- inject:js -->
+		<script src="app/app.module.js"></script>
+		<script src="app/core/assignmentService.js"></script>
+		<script src="app/core/projectService.js"></script>
+		<script src="app/core/studentService.js"></script>
+		<script src="app/dashboard/dashboard.controller.js"></script>
+		<script src="app/project/project.detail.controller.js"></script>
+		<script src="app/project/project.grid.controller.js"></script>
+		<script src="app/student/student.detail.controller.js"></script>
+		<script src="app/student/student.grid.controller.js"></script>
+		<!-- endinject -->
+	</body>
+</html>
