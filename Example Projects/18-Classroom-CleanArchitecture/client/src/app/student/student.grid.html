@@ -1,0 +1,28 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    Students
+    <button class="btn btn-primary btn-xs pull-right" ui-sref="student.detail">
+      Add Student
+    </button>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Assignments</th>
+          <th width="1%"></th>
+          <th width="1%"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="student in studentGrid.students">
+          <td>{{student.firstName}} {{student.lastName}}</td>
+          <td>{{student.assignments.length}}</td>
+          <td><a ui-sref="student.detail({studentId: student.studentId})" class="btn btn-xs btn-primary">Edit</a></td>
+          <td><a class="btn btn-xs btn-danger">Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

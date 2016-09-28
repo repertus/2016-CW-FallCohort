@@ -1,0 +1,26 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    Projects
+    <button class="btn btn-xs btn-primary pull-right" ui-sref="project.detail">Add Project</button>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Assigned Count</th>
+          <th width="1%"></th>
+          <th width="1%"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="project in projectGrid.projects">
+          <td>{{project.name}}</td>
+          <td>{{project.assignments.length}}</td>
+          <td><a ui-sref="project.detail({projectId: project.projectId})" class="btn btn-primary btn-xs">Edit</a></td>
+          <td><a class="btn btn-danger btn-xs">Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
